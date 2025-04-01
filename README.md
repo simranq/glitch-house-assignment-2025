@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🏡 Glitch House Assignment 2025
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-19.1-blue?logo=react)
+![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-## Available Scripts
+A modern React profile application showcasing creative UI components with GitHub Pages deployment.
 
-In the project directory, you can run:
+👉 **Live Demo**: [https://simranq.github.io/glitch-house-assignment-2025](https://simranq.github.io/glitch-house-assignment-2025)
 
-### `npm start`
+![App Screenshot](public/screenshot.png) ![image](https://github.com/user-attachments/assets/b8caaccd-d6d2-4bec-acf3-49f3754e464e) ![image](https://github.com/user-attachments/assets/0f1a5d49-a734-44ab-a448-04c8a0e62aad)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Profile UI** with dark/light mode
+- **Collection Gallery** with colorful tech stacks
+- **Tag Management System** for skills categorization
+- **Responsive Design** works on all devices
+- **GitHub Pages Deployment** with CI/CD workflow
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React 19
+- GitHub Pages
+- CSS3 (Flexbox/Grid)
+- React Icons
+- gh-pages deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/simranq/glitch-house-assignment-2025.git
+   ```
 
-### `npm run eject`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Run locally**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Deploy to GitHub Pages**
+   ```bash
+   npm run deploy
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Edit `src/Profile.js` to personalize:
+```jsx
+const profileData = {
+  username: "your-username",
+  bio: "Your custom bio here",
+  tags: ["React", "Node.js"] // Your skills
+}
+```
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pull requests welcome! Follow these steps:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 License
 
-### Code Splitting
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💻 **Coded with** ☕ **by SIMRAN QURESHI**  
+🔗 [Portfolio](https://simranqureshi-portfolio.netlify.app) | 💌 [Email](mailto:qsimran08@gmail.com)
